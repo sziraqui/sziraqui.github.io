@@ -21,7 +21,7 @@ section > ul > li {
 p {
     color: midnightblue;
 }
-.full-name {
+#full-name {
     color: white;
 }
 .tagline {
@@ -30,10 +30,15 @@ p {
     padding-left: 0.5em;
 }
 .section-box {
-    border: 0.15em solid;
-    border-color: darkblue;
+    border-radius: 1em;
     margin: 1em;
     padding: 1em;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1), 0 0.3em 1em 0 rgba(0, 0, 0, 0.19);
+}
+.section-box:hover {
+    border: 0.1em solid;
+    border-color: royalblue;
+    box-shadow: 0 0.4em 0.5em 0 rgba(0, 0, 0, 0.2), 0 1em 2em 0 rgba(0, 0, 0, 0.19);
 }
 .section-title {
     color: royalblue;
@@ -47,6 +52,9 @@ p {
     border: 1px solid;
     border-radius: 0.5em;
     margin: 0.4em;
+}
+.skill-tag:hover {
+    background-color: royalblue;
 }
 .subtitle1 {
     border-left: 0.1em solid;
@@ -91,4 +99,13 @@ footer > a {
     padding: 0.5em;
     font-style: normal;
     display: inline;
+    text-decoration: none;
+    margin: 0em;
+    padding: 1em;
+}
+#copyright {
+    color: teal;
+    font-weight: 200;
+    margin-bottom: 0.5em;
+    margin-right: 1em;
 }
