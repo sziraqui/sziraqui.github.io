@@ -1,0 +1,94 @@
+html {
+    margin: 0px;;
+    padding: 0px;
+    font-size: 12pt;
+}
+body {
+    font-family: 'Nunito Sans','Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 1em;
+}
+section > ul > li {
+    display: block;
+    margin: 0em;
+    padding: 0em;
+}
+p {
+    color: midnightblue;
+}
+.full-name {
+    color: white;
+}
+.tagline {
+    border-left: 0.1em solid;
+    border-color: tomato;
+    padding-left: 0.5em;
+}
+.section-box {
+    border: 0.15em solid;
+    border-color: darkblue;
+    margin: 1em;
+    padding: 1em;
+}
+.section-title {
+    color: royalblue;
+    margin: 0em;
+}
+.skill-tag {
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    padding: 0.5em;
+    border: 1px solid;
+    border-radius: 0.5em;
+    margin: 0.4em;
+}
+.subtitle1 {
+    border-left: 0.1em solid;
+    border-color: tomato;
+    color: teal;
+    padding-left: 0.5em;
+    margin: 0em;
+}
+.subtitle2 {
+    color: darkblue;
+    font-weight: 600;
+    padding: 0.5em;
+    margin: 0em;
+}
+.optional-title {
+    color: royalblue;
+    font-weight: 300;
+    margin: 0em;
+    padding: 0.5em; 
+}
+.short-desc {
+    color: midnightblue;
+    padding: 0.5em;
+}
+.time-desc {
+    color: tomato;
+    padding-left: 1em;
+}
+.work-period {
+    color: royalblue;
+    font-weight: 300;
+    margin: 0em;
+    padding: 0.5em;
+}
+footer {
+    background-color: darkslategrey;
+    padding: 1em;
+    margin: 0px;
+}
+footer > a {
+    color: white;
+    padding: 0.5em;
+    font-style: normal;
+    display: inline;
+}
