@@ -98,7 +98,7 @@ footer > a {
     color: white;
     padding: 0.5em;
     font-style: normal;
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     margin: 0em;
     padding: 1em;
@@ -108,4 +108,18 @@ footer > a {
     font-weight: 200;
     margin-bottom: 0.5em;
     margin-right: 1em;
+}
+.social-logo {
+    padding: 0.5em;
+    display: inline-block;
+    height: 4em;
+    margin: 0em;
+    padding: 1em;
+}
+.flair{
+    padding: 0.5em;
+    display: inline-block;
+    height: 4em;
+    margin: 0em;
+    padding: 1em;
 }
