@@ -5,10 +5,8 @@ class Navbar extends Component {
   render() {
     return (
       <header>
-        <h1 id="full-name">Sarfaraz Iraqui</h1>
-        <span className="tagline">
-          Passionate to build awesome software products and automate everything
-        </span>
+        <h1 id="full-name">{this.props.title}</h1>
+        <span className="tagline">{this.props.subtitle}</span>
       </header>
     );
   }
